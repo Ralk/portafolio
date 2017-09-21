@@ -1,0 +1,32 @@
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header__logo {
+  float: left;
+  height: 40px;
+  margin-right: 1em;
+  vertical-align: middle;
+  padding: 35px 15px;
+}
+
+.header__title {
+  float: right;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin: 1.5em 0.25em;
+  display: inline-block;
+  color: #212121;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.header__title:after {
+  content: 'Software Engineering';
+  display: block;
+  font-size: medium;
+  text-align: right;
+}

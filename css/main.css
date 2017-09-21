@@ -1,0 +1,206 @@
+/** images taken from:
+* Portafolio: http://cdn2.business2community.com/wp-content/uploads/2015/08/blog-happy-at-work-2-300x175.png.png
+* Trailers: http://www.reelsnobs.com/wp-content/uploads/2015/04/key_art_movie_trailers.jpg
+* Profile Icon: <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+*/
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Montserrat;
+  font-size: 12px;
+  color: #424242;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  min-height: 116px;
+  transition: min-height 0.3s;
+  border-bottom: solid 4px #7d97ad;
+}
+
+.header__inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__logo {
+  float: left;
+  height: 72px;
+  margin-right: 1em;
+  vertical-align: middle;
+  padding: 20px 15px;
+}
+
+.header__title {
+  float: right;
+  font-weight: 300;
+  font-size: 4em;
+  margin: 0.5em 0.25em;
+  display: inline-block;
+  color: #2d3c49;
+  text-transform: uppercase;
+}
+
+.header__title:after {
+  content: 'Software Engineering';
+  display: block;
+  font-size: medium;
+  text-align: right;
+  color: #2d3c49;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ *
+ * Content
+ *
+ */
+
+
+/*
+ *
+ * Profile Image
+ *
+ */
+
+.row {
+  height: 100%;
+  width: 100%;
+}
+
+.profile {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  margin-top: 30px;
+  padding: 0 10px 0 10px;
+}
+
+.profile-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)) repeat scroll 0% 0%, transparent url(../images/me.jpg) repeat scroll 0% 0%;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 70%;
+  width: 100%;
+  min-width: 300px;
+}
+
+.profile-info {
+  float: right;
+  height: 30%;
+  width: 100%;
+  min-width: 300px;
+  background-color: #efefef;
+  box-shadow: 0 6px 20px -6px #222;
+}
+
+.profile-personal-info-title {
+  display: block;
+  font-size: 20pt;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.profile-personal-description {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*
+ *
+ * Featured work
+ *
+ */
+.featured-work-title {
+  width: 100%;
+  height: 100px;
+  font-size: 40px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #7d97ad;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-work {
+  box-sizing: border-box;
+  width: 350px;
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+
+.box-image-container {
+  height: 70%;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.box-image {
+  height: 100%;
+  width: 100%;
+}
+
+.box-info {
+  height: 30%;
+  text-align: center;
+}
+
+.box__title {
+  font-size: xx-large;
+  padding-top: 10px;
+}
+.box__url {
+  font-size: medium;
+}
